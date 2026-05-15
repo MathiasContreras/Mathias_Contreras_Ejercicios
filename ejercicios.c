@@ -10,7 +10,7 @@ int main (int argc, char *argv[]){
     for (int i=0; i < 6; i++)
     {
         printf("arreglo[%d] = %d ",i, arreglo[i]);
-        printf("%p\n", *(ptr+i));
+        printf("%d", *(ptr+i));
     }
     
     return 0;
