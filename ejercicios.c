@@ -6,10 +6,11 @@ int main (int argc, char *argv[]){
 
     ptr = &arreglo[0];
     printf ("%p %d\t", ptr, *ptr);
-    
+
     for (int i=0; i < 6; i++)
     {
-        printf("%d", arreglo [i]);
+        printf("arreglo[%d] = %d ",i, arreglo[i]);
+        printf("%p\n", *(ptr+i));
     }
     
     return 0;
